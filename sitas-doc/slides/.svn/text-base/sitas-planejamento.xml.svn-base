@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!--
+ UNIVERSIDADE ESTADUAL DE PONTA GROSSA
+  Setor de Ciências e Tecnologia
+  Departamento de Informática
+  Curso de Bacharelado em Informática
+  Disciplina de Projeto
+  Acadêmicos: Alex Van Margraf
+              Edson Marcio Prestes Cordeiro dos Santos
+       R. A.: 98.1.0.4.16.23
+	      99.1.0.4.11.23
+     Projeto: Avaliação para análise sensorial.
+    Arquivos: planejamento-sensorial.xml
+	      planejamento-sensorial-xhtml.xsl
+  -->
+<?xml:stylesheet type="text/xsl" href="sitas-planejamento-xhtml.xsl"?>
+<projeto-planejamento sw="SiTaS" descricao="Planejamento do projeto de software" url="http://projetositas.sites.uol.com.br">
+ <escopo descricao="Escopo">
+  <titulo assunto="Análise Sensorial"> Sistema para Testes de Análise Sensorial </titulo>
+
+  <citacao norma="ABNT" ano="1993">
+   É a disciplina usada para evocar, medir, analisar e interpretar reações às características dos alimentos e materiais como são percebidas
+   pelos sentidos humanos da visão, olfato, gosto, tato e audição.
+  </citacao>
+
+  <introducao descricao="O ser humano e a análise sensorial">
+   <ser-humano habilidade1="Comparar" habilidade2="Diferenciar" habilidade3="Qualificar">
+     O ser humano possui habilidade natural para:
+   </ser-humano>
+
+   <analise-sensorial>
+     A análise sensorial utiliza-se dessa habilidade e avalia alimentos e bebidas, empregando a metodologia apropriada aos objetivos do
+     estudo e o tratamento estatístico dos dados obtidos.
+   </analise-sensorial>
+
+   <analise-uepg descricao="Engenharia de Alimentos da UEPG">
+    <paragrafo>
+     No curso de Análise Sensorial do departamento de Engenharia de Alimentos da Universidade Estadual de Ponta Grossa, os coordenadores
+     realizam avaliações sensoriais referente à análise de um produto por meio de testes discriminativos e/ou testes descritivos dentro de
+     seus respectivos métodos e referentes à afetividade de um produto pode ser feita por meio de preferência e/ou de aceitação.
+    </paragrafo>
+
+    <testes-discriminativos descricao="Testes de Diferença ou Discriminativos">
+	 <paragrafo> Os principais testes discriminativos utilizados são: </paragrafo>
+     <teste01> Odores </teste01>
+     <teste02> Gostos básicos </teste02>
+	 <teste03> Limiar de percepção </teste03>
+	 <teste04> Triangular </teste04>
+	 <teste05> Duo-trio </teste05>
+	 <teste06> Ordenação </teste06> 
+	 <teste07> Comparação pareada </teste07>
+	 <teste08> Comparação mútipla </teste08>
+	 <teste09> Análise seqüencial de WALD </teste09>
+	</testes-discriminativos>
+
+    <testes-descritivos descricao="Testes Descritivos">
+	 <paragrafo> Os principais testes descritivos utilizados são: </paragrafo>
+     <teste01> Escalas </teste01>
+     <teste02> Análise descritiva quantitativa (ADQ) </teste02>
+	 <teste03> Perfil de textura </teste03>
+    </testes-descritivos>
+
+    <testes-afetivos descricao="Testes Afetivos">
+	 <paragrafo> E os principais testes afetivos utilizados são: </paragrafo>
+     <teste01> Comparação pareada </teste01>
+     <teste02> Ordenação </teste02>
+	 <teste03> Escala de atitude </teste03>
+	 <teste04> Escala de hedônica </teste04>
+    </testes-afetivos>
+   </analise-uepg>
+
+   <processo descricao="O Processo de Avaliação Sensorial">
+   </processo>
+  </introducao>
+ </escopo>
+
+ <diagnostico-atual descricao="Diagnóstico atual">
+  <paragrafo-avaliacao>
+   Dentro das avaliações sensoriais, os testes sensoriais, atualmente, são utilizados papel e caneta como partes das ferramentas para a sua
+   realização e as correções destas são feitas através de processos manuais utilizando conceitos de estatística aplicada, utilizando o
+   computador como ferramenta para cálculo estatístico somente.
+  </paragrafo-avaliacao>
+
+  <paragrafo-ambiente>
+   O ambiente onde é feito o desenvolvimento das análises sensoriais possui uma sala com sete cabines, um computador pessoal de
+   configuração baixa  e todos os equipamentos e materiais  necessário para o tratamento das amostras utilizadas nos testes das
+   avaliações sensoriais.
+  </paragrafo-ambiente>
+
+  <fatos-encontrados descricao="Fatos encontrados"> 
+   <fato01> Nos testes são uma das partes mais trabalhosas (processo manual) </fato01>
+   <fato02> Cada teste possui método estatístico próprio ou compartilhado </fato02>
+   <fato03> Uso de software estatístico de maneira inadequada </fato03>
+   <fato04> Número grande de julgamentos (julgador x repetição) </fato04>
+   <fato05> Riscos com erros de falha humana </fato05>
+  </fatos-encontrados>
+ </diagnostico-atual>
+
+ <objetivo descricao="Objetivo">
+   Desenvolver uma solução baseada em software com a finalidade de informatizar e automatizar processos manuais da apresentação das 
+   fichas, dos tratamentos estatísticos dos resultados e da geração de relatórios referentes aos principais testes para avaliações 
+   sensoriais, evitando o risco de falha humana nesta etapa da avaliação sensorial.
+
+  <especifico descricao="Objetivos específicos">
+   <primeiro>
+    Avaliação de produtos
+   </primeiro>
+
+   <segundo>
+    Seleção de julgadores
+   </segundo>
+
+   <terceiro>
+    Treinamento de julgadores
+   </terceiro>
+  </especifico>
+ </objetivo>
+
+ <proposta descricao="Proposta">
+  <paragrafo>
+   A proposta de desenvolvimento para este software está na utilização do paradigma orientada a objetos (OOP) através da UML,
+   utilizando tecnologias voltadas para redes de computadores, onde o interesse está em desenvolver um software servidor, baseado na
+   técnica de SERVLET e JSP, que disponibilize todas as informações necessárias para que os testes das avaliações sensoriais sejam
+   realizados com sucesso e sem risco de falhas.
+  </paragrafo>
+
+  <ambientes paragrafo="Para o desenvolvimento do projeto serão utilizadas as seguintes ambientes (open source and/or community edition)">
+   <tool01> TOMCAT </tool01>
+   <tool02> VISUAL-PARADIGM for UML </tool02>
+   <tool03> NETBEANS for JAVA </tool03>
+   <tool04> POSTGRESQL </tool04>
+  </ambientes>
+  
+  <limitacoes>
+   As limitações e restrições referentes a este desenvolvimento deste projeto estão ligadas às recomendações de hardware para
+   a utilização dos servidores WEB e de banco de dados.
+  </limitacoes>
+
+  <beneficios descricao="Benefícios">
+   <paragrafo>
+    No Brasil, atualmente, são poucas soluções em software voltadas especificamente para este propósito (avaliações sensoriais). Geralmente
+    utilizam-se ferramentas estatísticas variadas para tratamento dos dados e softwares para processamento de texto para geração dos
+    relatórios. As soluções em software existentes possuem custo em suas licenças altíssimo, por serem específicas, ou seja, disponibilizam
+    apenas alguns testes devido ao negócio de seus clientes terem objetivos mais diretos e específicos.
+   </paragrafo>
+
+   <beneficio01 descricao="Referentes aos testes sensoriais"> Otimização e ganho de tempo </beneficio01>
+   <beneficio02> Informatização sem obrigações sobre cálculos </beneficio02>
+   <beneficio03> Informatização sem obrigações sobre relatórios </beneficio03>
+   <beneficio04> Diminuição no risco de falha humana </beneficio04>
+  </beneficios>
+
+  <custos descricao="Custos">
+   <desenvolvimento descricao="Referentes ao desenvolvimento">
+    <item01> Custo nulo em ferramentas </item01>
+   </desenvolvimento>
+   
+   <equipamento descricao="Referentes ao equipamento">
+    <item01> Disponibilidade de 2 PCs (configuração baixa) </item01>
+    <item02> Processamento pesado (client/server) </item02>
+    <item03> Investimento em 1 PC (análise de custo) </item03>
+   </equipamento>
+
+   <recurso-humano descricao="Referentes aos recursos humanos">
+    <item01> Adaptação a um sistema novo </item01>
+    <item02> Falta de interesse em conhecimento (inclusão digital) </item02>
+    <item03> Treinamento prévio (análise de disponibilidade) </item03>
+   </recurso-humano>
+  </custos>
+
+  <riscos descricao="Riscos">
+   <tabela>
+    <riscos descricao="Riscos">
+     <linha01> Programar todos os testes citados. </linha01>
+     <linha02> Uso de XML, XSL e SERVLET/JSP. </linha02>
+     <linha03> Inexperiência do pessoal. </linha03>
+     <linha04> Não concluir no prazo estimado. </linha04>
+    </riscos>
+
+    <categoria descricao="Categoria">
+     <linha01> Tamanho do produto. </linha01>
+     <linha02> Tecnologia. </linha02>
+     <linha03> Experiência da equipe. </linha03>
+     <linha04> Cronograma. </linha04>
+    </categoria>
+
+    <probabilidade descricao="Probabilidade">
+     <linha01> 90% </linha01>
+     <linha02> 80% </linha02>
+     <linha03> 30% </linha03>
+     <linha04> 10% </linha04>
+    </probabilidade>
+
+    <impacto descricao="Impacto">
+     <linha01 descricao=" = catastrófico"> 1 </linha01>
+     <linha02 descricao=" = crítico"> 2 </linha02>
+     <linha03 descricao=" = marginal"> 3 </linha03>
+     <linha04 descricao=" = negligível"> 4 </linha04>
+    </impacto>
+   </tabela>
+  </riscos>
+
+  <modelagem descricao="Modelagem do SiTaS">
+   <atores descricao="Definição dos atores">
+   </atores>
+
+   <use-case descricao="Diagrama de casos de uso">
+   </use-case>
+
+   <class descricao="Diagrama de classes">
+   </class>
+
+   <sequence descricao="Diagramas de seqüencia">
+   </sequence>
+
+   <db-conceitual descricao="Banco de Dados - Conceitual">
+   </db-conceitual>
+
+   <db-logico descricao="Banco de Dados - Lógico (IDEF1x)">
+   </db-logico>
+  </modelagem>
+ </proposta>
+
+ <cronograma descricao="Cronograma">
+ </cronograma>
+
+ <conclusao descricao="Conclusão">
+  <paragrafo01>
+   Análise sensorial torna-se o objetivo principal dependendo das empresas que a utilizam. Por isto, análises estatísticas bem definidas e bem 
+  realizadas através dos métodos sensoriais (testes) existentes ajudam a empresa a crescer e investir cada vez mais em seus produtos de uma 
+  forma não empírica, tanto em relação à aceitabilidade pelos seus clientes quanto em relação à afetividade de seus produtos.
+  </paragrafo01>
+  <paragrafo02>
+  Este projeto torna-se viável com o auxílio na elaboração dos principais testes e levantamento estatístico dos resultados para geração dos 
+  relatórios de maneira que exista um ganho de tempo, eficiência e segurança na correção dos mesmos.
+  </paragrafo02>
+  <paragrafo03>
+  Com isto concluímos que ao final do desenvolvimento deste projeto existirá uma solução em software que ajudará a agilizar os processos de 
+  avaliações sensoriais do curso de Análise Sensorial do departamento de Engenharia de Alimentos da UEPG.
+  </paragrafo03>
+ </conclusao>
+
+ <referencias descricao="Referências biliográficas">
+  <informatica descricao="Bacharelado em Informática">
+  </informatica>
+
+  <alimentos descricao="Engenharia de Alimentos">
+   <publicacao01>
+    <titulo> Análise Sensorial: Testes discriminativos e afetivos. </titulo>
+    <autor> FERREIRA, Vera Lucia P. </autor>
+    <editora> SBCTA. </editora>
+    <cidade> Campinas: SP, </cidade>
+    <ano> 2000 </ano>
+   </publicacao01>
+
+   <publicacao02>
+    <titulo> Práticas de Laboratório de Análise Sensorial de Alimentos e Bebidas. </titulo>
+    <autor> CHAVES, José B. P.; SPROESSER, Renato L. </autor>
+    <editora> Imprensa Universitária. </editora>
+    <cidade> Viçosa: MG, </cidade>
+    <ano> 1993 </ano>
+   </publicacao02>
+  </alimentos>
+ </referencias>
+
+ <responsavel descricao="Responsabilidades">
+  <projeto> Projeto de conclusão ( SiTaS ) </projeto>
+
+  <academia>
+   <nome> Universidade Estadual de Ponta Grossa </nome>
+   <sigla> U.E.P.G. </sigla>
+   <setor> Setor de Ciências Agrárias e Tecnologia </setor>
+   <departamento> Departamento de Informática </departamento>
+   <sigla-departamento> DeInfo </sigla-departamento>
+   <curso> Bacharelado em Informática </curso>
+   <disciplina> Disciplina de Projeto </disciplina>
+  </academia>
+
+  <orientador descricao="Orientador"> 
+   <primeiro-nome> João Umberto </primeiro-nome>
+   <sobre-nome> Furquim de Souza </sobre-nome>
+   <email> jufurquim@uol.com.br </email>
+  </orientador>
+
+  <academico01> 
+   <primeiro-nome> Alex Van </primeiro-nome>
+   <sobre-nome> Margraf </sobre-nome>
+   <assinatura> MARGRAF, A. V. </assinatura>
+   <email> alexvan@brturbo.com </email>
+   <ra> 98.1.0.4.16.23 </ra>
+   <fone> 42-223-3706 </fone>
+  </academico01>
+
+  <academico02> 
+   <primeiro-nome> Edson Marcio </primeiro-nome>
+   <sobre-nome> Prestes Cordeiro dos Santos </sobre-nome>
+   <assinatura> PRESTES, E. M. </assinatura>
+   <email> projetositas@uol.com.br </email>
+   <ra> 99.1.0.4.11.23 </ra>
+   <fone> 42-9912-2676 </fone>
+  </academico02>
+
+  <cliente descricao="A quem se destina o projeto">
+   <departamento descricao="Departamento"> Engenharia de Alimentos </departamento>
+   <responsavel descricao="Responsável" orientacao="Co-orientadora"> Deise Rosana Silva Simões </responsavel>
+   <telefone descricao="Contato por telefone"> 42-220-3276 ou 42-9111-9444 </telefone>
+   <email descricao="Contato por e-mail"> deise@interponta.com.br </email>
+  </cliente>
+
+  <cidade> Ponta Grossa </cidade>
+  <ano> Ano letívo de 2004 </ano>
+ </responsavel>
+</projeto-planejamento>

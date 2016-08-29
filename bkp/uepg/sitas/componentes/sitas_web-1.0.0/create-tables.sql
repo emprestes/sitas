@@ -1,0 +1,10 @@
+alter table user_role drop constraint FK143BF46AD8E6C83F;
+alter table user_role drop constraint FK143BF46A33BC045F;
+drop table app_user;
+drop table role;
+drop table user_role;
+create table app_user (id int8 not null, version int4 not null, username varchar(50) not null unique, password varchar(255) not null, password_hint varchar(255), first_name varchar(50) not null, last_name varchar(50) not null, email varchar(255) not null unique, phone_number varchar(255), website varchar(255), address varchar(150), city varchar(50) not null, province varchar(100), country varchar(100), postal_code varchar(15) not null, account_enabled char(1), account_expired char(1) not null, account_locked char(1) not null, credentials_expired char(1) not null, primary key (id));
+create table role (id int8 not null, name varchar(20), description varchar(64), primary key (id));
+create table user_role (user_id int8 not null, role_id int8 not null, primary key (user_id, role_id));
+alter table user_role add constraint FK143BF46AD8E6C83F foreign key (user_id) references app_user;
+alter table user_role add constraint FK143BF46A33BC045F foreign key (role_id) references role;

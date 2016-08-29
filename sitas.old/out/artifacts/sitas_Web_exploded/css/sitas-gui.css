@@ -1,0 +1,356 @@
+/* A */
+a {
+   text-decoration: none;
+	font-weight: bold;
+	color: Teal;
+}
+
+.autores {
+	font-size: xx-small;
+	color: Teal;
+	
+}
+
+.amostra-fundo-celula {
+	background-color: Blue;
+	color: White;
+}
+
+.amostra-fundo-linha1 {
+	background-color: #AEE0FF;
+	color: Blue;
+}
+
+.amostra-fundo-linha2 {
+	background-color: White;
+	color: Blue;
+}
+
+.amostra-titulo {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.amostra-novo {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0099FF;
+}
+
+/* B */
+body {
+	color: Teal;
+        background: #DDECDF;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+
+.body-fundo {
+	background-image: url(../image/sitas-uepg.01.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.body-fundo-logo {
+	background-color: Teal;
+	background-image: url(../image/sitas-logo.jpg);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.body-fundo-celula {
+	background-color: Teal;
+	color: White;
+}
+
+.backup-fundo-celula {
+	background-color: #006633;
+	color:  #EEFFFF;
+	}
+
+.backup-fundo-linha1 {
+	background-color: #F3F3E0;
+	color: Teal;	
+}
+
+.backup-fundo-linha2 {
+	background-color: #F4FFF4; 
+	color: #006633;
+}
+
+/* C */
+.cliente-fundo-celula {
+	background-color: #0099FF;
+	color: White;
+}
+
+.cliente-fundo-linha1 {
+	background-color: #F3F3E0;
+	color: Teal;
+}
+
+.cliente-fundo-linha2 {
+	background-color: #F3F3E0;
+	color: #0099FF;
+}
+
+.cliente-titulo {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.cliente-novo {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #0099FF;
+}
+
+/* D */
+.data-hora {
+	font-size: xx-small;
+	font-weight: bold;
+}
+
+/* E */
+.elaborar_sucesso {
+          font-weight: bolder;	
+          background-color:  #DDECDF;
+          font-size: 30px;
+          color: Teal;
+          font: bolder;
+}
+.elaborar_sucesso2 {
+          font-weight: bold;	
+          background-color:  #DDECDF;
+          font-size: 20px;
+          color: Teal;
+}
+
+/* F */
+.fundo_componente{
+	background-color: ButtonFace;
+	border-bottom: ButtonFace;
+}
+/* G */
+/* H */
+/* I */
+input {
+	background: ButtonFace;
+	color: Teal;
+	display: inline;
+}
+
+.interior{
+	background: #F3F3E0;
+}
+
+/* J */
+/* K */
+/* L */
+/* M */
+/* N */
+/* O */
+/* P */
+.pequeno {
+	font-size: xx-small;
+}
+
+.produto-titulo {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #F0FFF0;
+}
+
+.produto-fundo-celula {
+	background-color: Navy;
+	color:  #F0FFF0;
+}
+
+.produto-fundo-linha1 {
+	background-color: #F3F3E0;
+	color: Teal;
+}
+
+.produto-fundo-linha2 {
+   background-color: #F3F3E0;
+	color: Navy;
+}
+
+.produto-novo {
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+/* Q */
+/* R */
+.recruta-fundo-celula {
+	background-color: #CC9900;
+	color: #FFFFF0;
+}
+
+.recruta-fundo-linha1 {
+	background-color:  #FFFDEA;
+	color: #CC9900;
+}
+
+.recruta-fundo-linha2 {
+	background-color: #DDECDF;
+	color: #CC9900;
+}
+
+.relatorio-triangular-fundo-linha1 {
+	background: #DDECDF;
+	color: Teal;
+}
+
+.relatorio-triangular-celula {
+	background: #DDECDF;
+	color: Teal;
+}
+
+.relatorio-triangular-titulo {
+	color: Teal;
+	background: #DDECDF;	
+	font-size: 16px;
+	font-weight: bolder;
+	font: normal bolder;
+}
+
+.relatorio-fundo-celula {
+	background-color: #E3D0B2;
+	color: #557BAC;
+	font: oblique bolder;
+}
+
+.relatorio-fundo-linha1 {
+	background-color: #FFFFF0;
+	color: Teal;
+}
+
+.relatorio-fundo-linha2 {
+	background-color: #F3F3E0;
+	color: #557BAC;
+}
+
+.relatorio-discriminativo-ordenacao-titulo {
+	font: "Arial Black", Arial, Verdana;
+	font-size: small;
+	font-style: normal;
+	font-weight: bold;
+	color: Maroon;
+}
+
+/* S */
+select {
+	background: ButtonFace;
+	color: Teal;
+}
+
+.sitas {
+	font-size: xx-small;
+	font-style: italic;
+}
+
+/* T */
+table {
+	font-size: x-small;
+}
+
+textarea {
+	background-color: ButtonFace;
+	border-bottom: ButtonFace;
+	color: Teal; 
+}
+
+.teste-fundo-celula {
+	background-color: #999900;
+	color: #FFFFF0;
+}
+
+.teste-titulo { 
+   color: Teal;
+}
+
+.teste-triangular-fundo {
+   background: #F3F3E0;
+   color: Teal;
+}
+	
+.teste-link {
+	color: #CCCC00;
+	font-weight: bold;
+	font-size: x-small;
+}
+
+.teste-passo {
+   color: #CCCC00; 
+   font-weight: bold; 
+}
+
+.teste-passo2{
+   background: #F3F3E0;
+}
+	
+.teste-ajuda {
+   font-family: "Times New Roman", Times, serif;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.teste-subtitulo {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.teste-fundo-linha1 {
+	background-color: #FFF1D9;
+	color: Teal;
+}
+
+.teste-fundo-linha2 {
+	background-color: #FFFFE0;
+	color: Teal; 
+}
+
+.triangular-repeticao {
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 32px;
+	font-weight: bolder;
+	color: #F3F3E0;
+}
+
+.triangular-escala {
+	color: #F3F3E0;
+	font-weight: bolder;	
+}
+
+.teste-passos {
+	background: #CCCC00;
+	color: Teal;
+	font-size: medium;
+}
+
+.teste-visualizar-julgadores {
+	background: #CCCC00;
+	color: Teal;
+}
+
+/* U */
+.uepg {
+	font-size: medium;
+	font-weight: bold;
+	color: Teal;
+}
+
+/* V */
+/* X */
+/* Y */
+/* W */
+/* Z */

@@ -1,0 +1,14 @@
+br.emprestes.sitas
+br.emprestes.sitas.buildtools
+br.emprestes.sitas.dao
+br.emprestes.sitas.dao.hibernate
+br.emprestes.sitas.model
+br.emprestes.sitas.service
+br.emprestes.sitas.service.impl
+br.emprestes.sitas.util
+br.emprestes.sitas.webapp.action
+br.emprestes.sitas.webapp.filter
+br.emprestes.sitas.webapp.form
+br.emprestes.sitas.webapp.listener
+br.emprestes.sitas.webapp.taglib
+br.emprestes.sitas.webapp.util

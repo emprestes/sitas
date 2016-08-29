@@ -1,0 +1,20 @@
+========== Description Part Begin ==========
+ProgID = PageletServer.DynamicMenu
+Version = 4.00
+========== Description Part End ==========
+========== Parameter Part Begin ==========
+MenuBody0 = 4;1;3;4;0;0;0;0;2;3;0;42;0;10;1;1;1;16777215;16777215;16777215;16777215;39321;0;;3
+MenuBody1 = 3;1;3;4;0;0;0;0;2;3;0;15;14;20;1;1;1;16777215;16777215;16777215;16777215;39321;0;;3
+MenuBody2 = 3;1;3;4;0;0;0;0;2;3;0;15;14;20;1;1;1;16777215;16777215;16777215;16777215;39321;0;;3
+MenuItem0_0 = 2;2;;;0;SiTaS;0;0;1;Funcionalidades do sistema!;;mainFrame;SiTaS :: SiTaS (funcionalidades do sistema)!;0;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;../image/sitas-amarelo.01-sd.gif;../image/sitas-amarelo.01-sa.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+MenuItem0_1 = 0;0;;;0;1;16777215;0;;;0;0;0
+MenuItem0_2 = 1;1;;;0;Testes ...;0;0;1;Testes a serem feitos!;../jsp/sitas-testes.jsp?login=julgador;mainFrame;SiTaS :: Testes (Testes a serem feitos);0;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;../image/sitas-verde-sd.gif;../image/sitas-verde-sa.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+MenuItem0_3 = 0;1;;;0;PIM ...;0;0;1;Gerência de suas informações pessoais!;;mainFrame;SiTaS :: Usuários (Gerência de suas informações pessoais)!;0;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;../image/sitas-verde-sd.gif;../image/sitas-verde-sa.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+MenuItem1_0 = 2;2;;;0;Documentação;0;0;1;Ajuda do SiTaS!;;mainFrame;SiTaS :: Documentação (Ajuda do sistema)!;0;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;../image/sitas-docs.gif;../image/sitas-docs.gif;16;15;0;;;0;0;0;../image/sitas-amarelo.01-sd.gif;../image/sitas-amarelo.01-sa.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+MenuItem1_1 = 0;0;;;0;1;16777215;0;;;0;0;0
+MenuItem1_2 = 0;1;;;0;Logoff ...;0;0;1;Saída do SiTaS!;../jsp/sitas-login.jsp;mainFrame;SiTaS :: Finaliza sua sessão!;0;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+MenuItem2_0 = 0;1;;;0;Conteúdo ...;0;0;1;;;_self;;1;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+MenuItem2_1 = 0;0;;;0;1;16777215;0;;;0;0;0
+MenuItem2_2 = 0;1;;;0;Sobre ...;0;0;1;;;_self;;1;3368448;16777215;1;0;;;3;3;0;0;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;39321;0;0;0;0;0;0;0;0;0;0;
+TopMenuBody = 2;400;menu2312;1;1;1;10;120;0;0;0;0;0;;1;0;0;;1
+========== Parameter Part End ==========

@@ -1,0 +1,10 @@
+UNIVERSIDADE ESTADUAL DE PONTA GROSSA
+ Setor Ciências Agrárias e Tecnologia
+ Departamento de Engenharia de Alimentos
+ Curso de Engenharia de Alimentos
+
+	Responsável: 	Professora Deise Simões
+	Projeto sugerido:	Sistema para Testes de Análise Sensorial
+
+Descrição da necessidade:
+A disciplina de análise sensorial do curso de engenharia de alimentos da universidade estadual de Ponta Grossa realiza suas avaliações para testes sensorias de maneira, quase que totalmente, manual e utiliza o computador como ferramenta apenas para cálculos estatísticos e geração de relatórios de tais avaliações. Por este fato, vemos a importância e o interesse de solicitar uma solução em software que informatize e automatize tais processos manuais.

@@ -1,0 +1,26 @@
+UNIVERSIDADE ESTADUAL DE PONTA GROSSA
+  Setor de Ciências Agrárias e Tecnologia
+  Departamento de Informática
+  Curso de Bacharelado em Informática
+  Disciplina de Projeto
+
+10/02/2004
+
+PLANEJAMENTO DE PROCESSO DE SOFTWARE
+
+    PROJETO: Sistema para Testes de Análise Sensorial (SiTaS)
+RESPONSÁVEL: Edson Marcio Prestes Cordeiro dos Santos
+      R. A.: 99.1.0.4.11.23
+
+OBJETIVO:
+Desenvolver uma solução baseada em software com a finalidade de informatizar e automatizar processos manuais de tratamentos estatísticos de resultados e geração de relatórios de testes para avaliações sensoriais.
+
+JUSTIFICATIVA:
+Nos testes de análise sensorial, do curso de engenharia de alimentos da Universidade Estadual de Ponta Grossa no Paraná, são utilizados papel e caneta como partes das ferramentas para a realização de avaliações sensoriais e as correções destas são feitas através de processos manuais utilizando conceitos da ciência de estatística aplicada. Tendo em vista este fato.
+
+DESCRIÇÃO DO ESCOPO DO PRODUTO:
+
+A ABNT (1993) conceitua análise sensorial como: "É a disciplina usada para evocar, medir, analisar e interpretar reações às características dos alimentos e materiais como são percebidas pelos sentidos humanos da visão, olfato, gosto, tato e audição."
+A análise sensorial utiliza-se de habilidades do ser humano (comparação, diferenciação e qualificação) para avaliar alimentos e bebidas, empregando a metodologia apropriada aos objetivos do estudo e o tratamento estatístico dos dados obtidos. Tal metodologia utiliza, como uma de suas ferramentas, testes com perguntas referentes à análise (discriminação e descrição) ou à afetividade (preferência e aceitação) dos produtos, além disto, existe a necessidade de recrutamento, seleção (e/ou treinamento) de julgadores para realização do processo de avaliação sensorial (isto pode ser feito através de métodos de entrevistas e/ou questionários) guardando também todo o histórico de participação de tais julgadores em relação aos processos de avaliação.
+O sistema para testes de análise sensorial (SiTaS) além de interagir com seus usuários de maneira prática e rápida para a realização dos testes das avaliações sensoriais também permite o cadastramento e gerenciamento de informações de seus usuários, tanto julgadores quanto coordenadores. Caso o usuário seja um julgador, o SiTaS irá coletar e armazenar os dados obtidos referentes ao teste que este está participando ou possibilitará gerência de seu próprio cadastro. Caso seja um coordenador, o SiTaS irá gerenciar e gerar relatórios com o tratamento estatístico dos resultados obtidos de testes realizados, além de gerenciar seu próprio cadastro e o cadastro dos julgadores.
+A literatura aborda mais assuntos referentes à análise sensorial, são eles: definições de termos empregados, erros em avaliações sensoriais causados por fatores fisiológicos e/ou psicológicos, implantação de laboratórios, materiais e equipamentos selecionados, amostras de produtos referentes à sua preparação e apresentação. Todos estes assuntos citados não serão tratados no escopo deste projeto.

@@ -1,0 +1,15 @@
+========== Description Part Begin ==========
+ProgID = PageletServer.DynamicMenu
+Version = 4.00
+========== Description Part End ==========
+========== Parameter Part Begin ==========
+MenuBody0 = 7;0;2;3;0;0;0;0;0;0;16252927;0;0;50;1;0;1;0;0;0;0;8388608;0;;3
+MenuItem0_0 = 0;1;;;0;Incluir;0;0;1;SiTaS :: Inclui um novo produto!;javascript:gerenciarProdutos(1);mainFrame;SiTaS :: Inclui um novo produto...;0;16252927;16756654;1;0;;;3;3;1;1;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;;;0;0;0;Verdana;Verdana;8;8;0;0;16777215;8388608;0;0;0;0;0;0;0;0;0;0;
+MenuItem0_1 = 0;0;;;0;1;16777215;0;;;0;0;0
+MenuItem0_2 = 0;1;;;0;Alterar;0;0;1;SiTaS :: Altera o nome dos produtos!;javascript:gerenciarProdutos(2);mainFrame;SiTaS :: Altera o nome dos produtos...;0;16252927;16756654;1;0;;;3;3;1;1;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;;;0;0;0;Verdana;Verdana;8;8;0;0;16777215;8388608;0;0;0;0;0;0;0;0;0;0;
+MenuItem0_3 = 0;0;;;0;1;16777215;0;;;0;0;0
+MenuItem0_4 = 1;1;;;0;Excluir;0;0;1;SiTaS :: Exclui produtos apos selecao!;javascript:gerenciarProdutos(3);mainFrame;SiTaS :: Exclui produtos apos selecao...;0;16252927;16756654;1;0;;;3;3;1;1;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;8388608;0;0;0;0;0;0;0;0;0;0;
+MenuItem0_5 = 0;0;;;0;1;16777215;0;;;0;0;0
+MenuItem0_6 = 0;1;;;0;Atualizar;0;0;1;SiTaS :: Atualiza esta pagina!;javascript:gerenciarProdutos(4);mainFrame;SiTaS :: Atualiza esta pagina...;0;16252927;16756654;1;0;;;3;3;1;1;0;0;16252927;16252927;16252927;16252927;0;0;0;0;;;0;0;0;;;0;0;0;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;C:\\Arquivos de programas\\SourceTec\\Sothink DHTMLMenu\\Resource\\arrow_r.gif;7;7;0;Verdana;Verdana;8;8;0;0;16777215;8388608;0;0;0;0;0;0;0;0;0;0;
+TopMenuBody = 2;400;menu79cd;0;0;0;0;0;0;0;1000;250;0;;1;0;0;;1
+========== Parameter Part End ==========

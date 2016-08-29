@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <!-- Do not use Project Properties customizer when editing this file manually. -->
+            <name>appfuse</name>
+            <properties/>
+            <folders>
+                <source-folder>
+                    <label>web</label>
+                    <type>doc_root</type>
+                    <location>web</location>
+                </source-folder>
+                <source-folder>
+                    <label>src/dao</label>
+                    <type>java</type>
+                    <location>src/dao</location>
+                </source-folder>
+                <source-folder>
+                    <label>src/service</label>
+                    <type>java</type>
+                    <location>src/service</location>
+                </source-folder>
+                <source-folder>
+                    <label>src/web</label>
+                    <type>java</type>
+                    <location>src/web</location>
+                </source-folder>
+                <source-folder>
+                    <label>test/dao</label>
+                    <type>java</type>
+                    <location>test/dao</location>
+                </source-folder>
+                <source-folder>
+                    <label>test/service</label>
+                    <type>java</type>
+                    <location>test/service</location>
+                </source-folder>
+                <source-folder>
+                    <label>test/web</label>
+                    <type>java</type>
+                    <location>test/web</location>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="build">
+                    <target>compile</target>
+                </action>
+                <action name="clean">
+                    <target>clean</target>
+                </action>
+                <action name="javadoc">
+                    <target>javadoc</target>
+                </action>
+                <action name="run">
+                    <target>new</target>
+                </action>
+                <action name="test">
+                    <target>test-all</target>
+                </action>
+                <action name="redeploy">
+                    <target>deploy</target>
+                </action>
+                <action name="rebuild">
+                    <target>clean</target>
+                    <target>compile</target>
+                </action>
+            </ide-actions>
+            <view>
+                <items>
+                    <source-folder style="tree">
+                        <label>Web Pages</label>
+                        <location>web</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>src/dao</label>
+                        <location>src/dao</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>src/service</label>
+                        <location>src/service</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>src/web</label>
+                        <location>src/web</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>test/dao</label>
+                        <location>test/dao</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>test/service</label>
+                        <location>test/service</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>test/web</label>
+                        <location>test/web</location>
+                    </source-folder>
+                    <source-file>
+                        <location>build.xml</location>
+                    </source-file>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                    <ide-action name="clean"/>
+                    <ide-action name="javadoc"/>
+                    <ide-action name="run"/>
+                    <ide-action name="test"/>
+                    <ide-action name="redeploy"/>
+                    <ide-action name="rebuild"/>
+                </context-menu>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/2">
+            <compilation-unit>
+                <package-root>src/dao</package-root>
+                <classpath mode="compile">lib/spring-1.2.6/acegi-security-1.0.0-RC1.jar:lib/jakarta-commons/commons-lang.jar:lib/jakarta-commons/commons-logging.jar:lib/spring-1.2.6/spring.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>src/service</package-root>
+                <classpath mode="compile">lib/jakarta-commons/commons-logging.jar:lib/spring-1.2.6/spring.jar:lib/velocity-1.4/velocity-1.4.jar:lib/javamail-1.3.1/mail.jar:lib/javamail-1.3.1/activation.jar:lib/spring-1.2.6/acegi-security-1.0.0-RC1.jar:lib/jakarta-commons/commons-collections.jar:lib/jakarta-commons/commons-beanutils.jar:lib/jakarta-commons/commons-lang.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>src/web</package-root>
+                <classpath mode="compile">lib/spring-1.2.6/acegi-security-1.0.0-RC1.jar:lib/jakarta-commons/commons-logging.jar:lib/struts-1.2.8/struts.jar:lib/servletapi-2.3/servletapi-2.3.jar:lib/spring-1.2.6/spring.jar:lib/jakarta-commons/commons-beanutils.jar:lib/jakarta-commons/commons-lang.jar:lib/displaytag-1.1-SNAPSHOT/displaytag-1.1-SNAPSHOT.jar:lib/jakarta-taglibs/standard-1.1.2/lib/jstl.jar:lib/jakarta-commons/commons-validator.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>test/dao</package-root>
+                <unit-tests/>
+                <classpath mode="compile">lib/spring-1.2.6/acegi-security-1.0.0-RC1.jar:lib/jakarta-commons/commons-lang.jar:lib/jakarta-commons/commons-logging.jar:lib/spring-1.2.6/spring.jar:lib/jakarta-commons/commons-beanutils.jar:lib/spring-1.2.6/spring-mock.jar:lib/junit3.8.1/junit.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>test/service</package-root>
+                <unit-tests/>
+                <classpath mode="compile">lib/jakarta-commons/commons-logging.jar:lib/spring-1.2.6/spring.jar:lib/velocity-1.4/velocity-1.4.jar:lib/javamail-1.3.1/mail.jar:lib/javamail-1.3.1/activation.jar:lib/spring-1.2.6/acegi-security-1.0.0-RC1.jar:lib/jakarta-commons/commons-collections.jar:lib/jakarta-commons/commons-beanutils.jar:lib/jakarta-commons/commons-lang.jar:lib/jmock-1.0.1/jmock-1.0.1.jar:lib/junit3.8.1/junit.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>test/web</package-root>
+                <unit-tests/>
+                <classpath mode="compile">lib/spring-1.2.6/acegi-security-1.0.0-RC1.jar:lib/jakarta-commons/commons-logging.jar:lib/struts-1.2.8/struts.jar:lib/servletapi-2.3/servletapi-2.3.jar:lib/spring-1.2.6/spring.jar:lib/jakarta-commons/commons-beanutils.jar:lib/jakarta-commons/commons-lang.jar:lib/displaytag-1.1-SNAPSHOT/displaytag-1.1-SNAPSHOT.jar:lib/jakarta-taglibs/standard-1.1.2/lib/jstl.jar:lib/jakarta-commons/commons-validator.jar:lib/spring-1.2.6/spring-mock.jar:lib/strutstest-2.1.3/strutstest-2.1.3.jar:lib/junit3.8.1/junit.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+        </java-data>
+        <web-data xmlns="http://www.netbeans.org/ns/freeform-project-web/1">
+            <web-module>
+                <doc-root>web</doc-root>
+                <classpath/>
+                <context-path/>
+                <j2ee-spec-level>1.4</j2ee-spec-level>
+            </web-module>
+        </web-data>
+    </configuration>
+</project>

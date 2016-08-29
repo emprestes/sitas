@@ -1,0 +1,92 @@
+TABLE {
+	font: 18px;
+}
+.titulo{
+	background: Green;
+	color: White;
+	font: normal small-caps bold 25px;
+	font-family: "Courier New", Courier, "Comic Sans MS";
+	text-align: center;
+	}
+.titulo-capa{
+	color: Green;
+	font: normal small-caps bold 35px;
+	font-family: "Courier New", Courier, "Comic Sans MS";
+	text-align: center;
+	}
+.sitas{
+	
+	font-size: medium;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: bolder;
+	font-stretch: normal;
+	font-size-adjust: none;
+	color: White;	
+	background: #006666;
+}
+.slide{
+	font: normal bold 30px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+	color: #006666;
+}
+.capa{
+	background: Green;
+	color: White;
+	font: normal small-caps bold 51px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.assinatura1{
+	background: White;
+	color: Green;
+	font: normal small-caps bold 25px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: right;
+}
+.assinatura2{
+	background: #006666;
+	color: White;
+	font: normal small-caps bold 10px;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+.academia{
+	color: Green;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+.projeto-corpo{
+	color: Green;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: justify;
+}
+.projeto-ano{
+	color: Green;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+.academia-titulo{
+	color: Green;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 24px;
+}
+.cidade{
+	color: Green;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;	
+}
+
+.autores{
+	color: White;
+}
+
+.publicacoes{
+	font-size: x-small;
+	text-align: justify;
+	color: Green;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}

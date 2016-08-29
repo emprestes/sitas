@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context crossContext="true" debug="9" docBase="sitas" path="/sitas" reloadable="true">
+  <Resource auth="Container" driverClassName="org.postgresql.Driver" maxActive="51" maxIdle="51" maxWait="-1" name="jdbc/sitas-db" password="sitas" type="javax.sql.DataSource" url="jdbc:postgresql://192.168.1.6:5432/sitas-db" username="sitas"/>
+  <Realm className="org.apache.catalina.realm.DataSourceRealm" dataSourceName="jdbc/sitas-db" debug="99" localDataSource="true" roleNameCol="role_name" userCredCol="user_pass" userNameCol="user_name" userRoleTable="user_roles" userTable="users"/>
+</Context>
